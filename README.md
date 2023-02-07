@@ -1,4 +1,3 @@
-# Art_Resources_Project
-Group Project
+# The Key Strokes
 
 Emmanuel, Derek, Alan
