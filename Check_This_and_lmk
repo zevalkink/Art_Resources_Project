@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Our Web Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>The Key Strokes</h1>
+    <div class="main-menu">
+        <ul>       
+            <li><a href="derek.html">Derek</a></li>
+            <li><a href="my information.html">Emmanuel</a></li>
+            <li><a href="#">Alan</a></li>
+        </ul>
+    </div>
+        <img src="typing-keyboarding-practice-games-and-lessons1604681748818430.jpg">
+    </body>
+    </html>
