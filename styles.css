@@ -40,3 +40,6 @@ div.main-menu ul{
 div.main-menu ul li{
     display: inline;
 }
+:any-link{
+    text-decoration: none;
+}
