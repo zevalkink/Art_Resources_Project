@@ -6,9 +6,8 @@ html{
 img{    
     width:1000px;
     border-radius: 800px;
-    mix-blend-mode: saturation;
-    mix-blend-mode: lighten;
     border: solid   5px black;
+    align-items: center;
 }
 head{
     font-size: 40px;
@@ -52,4 +51,13 @@ style{
 .column{
     flex: 33.33%;
     padding: 5px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
 }
