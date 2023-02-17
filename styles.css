@@ -8,6 +8,8 @@ img{
     border-radius: 800px;
     border: solid   5px black;
     align-items: center;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 head{
     font-size: 40px;
