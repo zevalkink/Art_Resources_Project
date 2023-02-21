@@ -3,14 +3,27 @@ html{
     margin-left: 60px;
     margin-right: 60px;
 }
-body{
-    color: rgb(175, 175, 175);
-    font-size: 60px;
+body a{
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.top{
+    object-fit: cover;
+    font-size: 50px;
     font-style: oblique;
     text-align: center;
 }
-body    h1{
-    background-color: rgb(255, 255, 255)
+.top h1{
+    background-color: rgba(181,1,236,0.75);
+    border-color: rgb(255,255,255);
+    border-style: groove;
+    border-width: 4px;
+    border-radius: 10px; 
+    color: rgb(255,255,255);
+    font-weight: bold;
 }
 .pictures {
     display: grid;
@@ -20,25 +33,25 @@ body    h1{
 .pictures img {
     width: 100%;
     height: 100%;
+    border-radius: 5%;
     object-fit: cover;
-    border-radius: 10%;
     border-color: rgb(255, 255, 255);
     border-style: groove;
-    border-width: 2px;
-    transition: transform 0.5s;
-}
-.pictures video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10%;
-    border-color: rgb(255, 255, 255);
-    border-style: groove;
-    border-width: 2px;
+    border-width: 10px;
     transition: transform 0.5s;
 }
 .pictures img:hover {
     transform: scale(1.1);
+}
+.pictures video {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-width: 10px;
+    transition: transform 0.5s;
 }
 .pictures video:focus {
     transform: scale(1.1);
@@ -58,12 +71,14 @@ body    h1{
     text-align:center;
     background-color: white;
     color: rgb(181,1,236);
+    border-style: groove;
     border-radius: 10px;
+    border-color: rgb(181,1,236);
     overflow-wrap: break-word;
 }
 .text p{
     background-color: rgb(181, 1, 236);
-    border-color: rgb(181, 1, 236);
+    border-color: rgb(255,255,255);
     border-style: groove;
     border-width: 4px;
     color:rgb(255, 255, 255);
