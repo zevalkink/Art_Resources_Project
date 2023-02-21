@@ -1,5 +1,7 @@
 html{
     background-image:url(dzphoto/background.jpg);
+}
+body{
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -28,7 +30,7 @@ body a{
 .pictures {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 35px;
+    gap: 45px;
 }
 .pictures img {
     width: 100%;
@@ -37,7 +39,7 @@ body a{
     object-fit: cover;
     border-color: rgb(255, 255, 255);
     border-style: groove;
-    border-width: 10px;
+    border-width: 8px;
     transition: transform 0.5s;
 }
 .pictures img:hover {
@@ -63,8 +65,8 @@ body a{
     font-style: oblique;
     font-weight: bold;
     gap: 5px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .text h1{
     font-size: 120%;
@@ -84,4 +86,11 @@ body a{
     color:rgb(255, 255, 255);
     border-radius: 10px;
     overflow-wrap: normal;
+    transition: transform 0.5s;
+    margin-right: 200px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.text p:hover{
+    transform: scale(1.3);
 }
