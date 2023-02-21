@@ -15,7 +15,7 @@ body    h1{
 .pictures {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+    gap: 35px;
 }
 .pictures img {
     width: 100%;
@@ -25,7 +25,7 @@ body    h1{
     border-color: rgb(255, 255, 255);
     border-style: groove;
     border-width: 2px;
-    transition: transform 1.5s;
+    transition: transform 1.4s;
 }
 .pictures video {
     width: 100%;
