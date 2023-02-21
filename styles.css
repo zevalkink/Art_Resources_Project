@@ -6,9 +6,10 @@ html{
 img{    
     width:1000px;
     border-radius: 800px;
-    mix-blend-mode: saturation;
-    mix-blend-mode: lighten;
     border: solid   5px black;
+    align-items: center;
+    margin-left: 125px;
+    margin-right: 125px;
 }
 head{
     font-size: 40px;
@@ -42,4 +43,31 @@ div.main-menu ul li{
 }
 :any-link{
     text-decoration: none;
+}
+style{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+pics{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 75px;
+    margin: 125px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px
 }
