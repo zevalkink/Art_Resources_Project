@@ -1,9 +1,9 @@
-html{
+html {
     background-color: rgba(134, 0, 0, 0.767);
-    background-color: transparent 60px;
+    background-color: transparent;
     text-shadow: 4px 4px 5px black;
-    }
-img{    
+}
+img {    
     width:1000px;
     border-radius: 800px;
     border: solid   5px black;
@@ -11,62 +11,62 @@ img{
     margin-left: 125px;
     margin-right: 125px;
 }
-head{
+head {
     font-size: 40px;
     text-align: center;
 }
-body{
+body {
     color: rgb(207, 207, 207);
     font-size: 60px;
     font-style: oblique;
     text-align: center;
 }
-ul{
+ul {
     color: rgb(207, 207, 207);
     font-size: 40px; 
     text-align:left;
     list-style: circle;
 }
-div.main-menu :any-link{
+div.main-menu :any-link {
     text-decoration: none;
     color: rgb(64, 219, 3);
 }
-div.main-menu ul{
+div.main-menu ul {
     display: flex;
     justify-content: space-around;
     width: 16em;
     margin: auto;
     margin-bottom: .5em;
 }
-div.main-menu ul li{
+div.main-menu ul li {
     display: inline;
 }
-:any-link{
+:any-link {
     text-decoration: none;
 }
-style{
+style {
     box-sizing: border-box;
 }
-.row{
+.row {
     display: flex;
 }
-.column{
+.column {
     flex: 33.33%;
     padding: 5px;
 }
-pics{
+pics {
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap: 75px;
     margin: 125px;
 }
-h1{
+h1 {
     text-align: center;
 }
-h2{
+h2 {
     text-align: center;
 }
-p{
+p {
     text-align: center;
     margin-left: 125px;
     margin-right: 125px
