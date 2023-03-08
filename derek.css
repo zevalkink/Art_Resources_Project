@@ -45,12 +45,13 @@ body {
     grid-template-columns: repeat(2,1fr);
     gap: 45px;
     margin-top: 50px;
+    justify-content: center;
+    padding-left: 1em;
 }
 .youtube iframe {
     border-color: rgb(255, 255, 255);
     border-style: groove;
     border-width: 8px;
-    justify-content: center;
 }
 .text {
     display: flex;
